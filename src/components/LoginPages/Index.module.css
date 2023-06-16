@@ -1,0 +1,16 @@
+.main-page {
+	/* display: flex;
+	flex-direction: row;
+	width: 100%; */
+	padding-left: 30%;
+	
+}
+
+main {
+	margin-top: 60px;
+	width: 100vw;
+    background-image: url('./images/main-background.png');
+	background-size: 100%;
+	background-position: 0% -100px;
+	background-repeat: no-repeat;
+}

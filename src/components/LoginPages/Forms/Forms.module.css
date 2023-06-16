@@ -1,0 +1,70 @@
+form div input {
+    border: 0.99625px solid #D1D1D1;
+    border-radius: 9.9625px;
+    width: 370px;
+    height: 40px;
+}
+
+form .input-block {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.upload-button {
+    background: linear-gradient(91.94deg, #4D3D3D 3.09%, #902222 91.66%);
+    border-radius: 9.9625px;
+    color: white;
+    width: 420px;
+    height: 50px;
+
+    justify-self: flex-end;
+    align-self: center;
+}
+
+.submit-button {
+    background: linear-gradient(91.94deg, #4D3D3D 3.09%, #902222 91.66%);
+    border-radius: 9.9625px;
+    color: white;
+    width: 420px;
+    height: 50px;
+
+    justify-self: flex-end;
+    align-self: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: start;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 614px;
+}
+
+form h1 {
+    align-self: center;
+}
+
+.input-block input {
+    padding: 0 10px;
+}
+
+.registration-block {
+    margin-left: 10px;
+    
+}
+.registration-block a {
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,11 @@
+.tag-span {
+	display: inline-block;
+	border: 1px solid black;
+	border-radius: 20px;
+	padding: 0 5px;
+	background-color: white;
+}
+
+.tags-span-elements {
+	margin-bottom: 10px;
+}

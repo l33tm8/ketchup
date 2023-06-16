@@ -1,0 +1,119 @@
+.tinder-main {
+	margin: 40px;
+	margin-top: 70px;
+	margin-bottom: 100px;
+
+}
+.tinder-tags {
+	margin-bottom: 10px;
+}
+
+.tinder-window {
+	display: flex;
+	border: 1px solid;
+	height: 600px;
+}
+
+.tinder-image {
+	flex-grow: 2;
+	border-right: 1px solid;
+	background-image: url(./images/tinder-image.png);
+	background-size: cover;
+	position: relative;
+}
+
+.tinder-about {
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+	max-width: 30vw;
+	padding: 10px;
+}
+
+.tinder-description {
+	text-align: center;
+	
+	border-bottom: 1px solid;
+	/* flex-grow: 4; */
+	padding: 5px 40px;
+	min-height: 400px;
+}
+
+.tinder-reactions {
+	flex-grow: 1;
+	display: flex;
+	flex-direction: row;
+	padding: 0 50px;
+	align-items: center;
+	justify-content: center;
+}
+
+.switchers {
+	position: absolute;
+	left: 18px;
+	bottom: 18px;
+	display: flex;
+	flex-direction: row;
+
+}
+
+.switcher-element {
+	border: 3px solid;
+	width: 18px;
+	height: 18px;
+	border-radius: 100%;
+	margin-right: 10px;
+}
+
+.active {
+	background-color: white;
+}
+
+.animated-button {
+	width: 48px;
+	height: 48px;
+	margin-right: 20px;
+	position: relative;
+	background-color: transparent;
+	border: none;
+}
+
+.animated-button:last-child {
+	margin-right: 0;
+}
+
+.animated-button:hover {
+	transform: scale(1.05);
+
+}
+
+.animated-button img {
+	width: inherit;
+	height: inherit;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.black-on-white {
+	color: black;
+	background-color: white;
+	border-bottom: 2px solid #111111;
+}
+
+.active {
+	background-color: white;
+}
+
+.tag-span {
+	display: inline-block;
+	border: 1px solid black;
+	border-radius: 20px;
+	padding: 0 5px;
+	background-color: white;
+}
+
+.tinder-comments {
+	height: 500px;
+	overflow-y: scroll;
+}
